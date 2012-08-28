@@ -1,6 +1,3 @@
-{-# LANGUAGE FlexibleInstances, ExistentialQuantification, ScopedTypeVariables, TypeOperators, MultiParamTypeClasses, 
-FunctionalDependencies, TypeFamilies #-}
-
 module Math.Manifold
        ( -- * The Manifold Data Type
          Manifold(..),

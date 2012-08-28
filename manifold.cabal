@@ -26,7 +26,7 @@ Author:              Christian Gosch
 
 -- An email address to which users can send suggestions, bug reports,
 -- and patches.
-Maintainer:          werbung@goschs.de
+Maintainer:          github@goschs.de
 
 -- A copyright notice.
 -- Copyright:           
@@ -45,11 +45,11 @@ Cabal-version:       >=1.8
 
 Library
   -- Modules exported by the library.
-  Exposed-modules:     Math.Manifold, Math.Manifold.Jalla
+  Exposed-modules:     Math.Manifold
   
   -- Packages needed in order to build this package.
   hs-source-dirs: src
-  build-depends: jalla (>= 0.1), base (>= 4.0)
+  build-depends: base (>= 4.0)
   
   -- Modules not exported by this package.
   -- Other-modules:       
@@ -57,8 +57,3 @@ Library
   -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
   -- Build-tools:         
   
-Test-suite tests
-  Type: exitcode-stdio-1.0
-  Hs-source-dirs: tests
-  Main-is: Test.hs
-  Build-depends: base -any, jalla, manifold, random (>= 1.0.1), HUnit (>= 1.2.4), QuickCheck (>= 2.4.2), test-framework (>= 0.5), test-framework-hunit (>= 0.2.7), test-framework-quickcheck2 (>= 0.2.12)
