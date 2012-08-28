@@ -10,7 +10,7 @@ Name:                manifold
 Version:             0.1
 
 -- A short (one-line) description of the package.
-Synopsis:            Aims to provide manifold computations.
+Synopsis:            Aims to provide manifold computations. Currently provides a function to compute Karcher means.
 
 -- A longer description of the package.
 -- Description:         
